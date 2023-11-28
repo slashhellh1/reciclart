@@ -1,0 +1,140 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.header-text {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+}
+
+.sponsors > .title-page {
+  display: flex;
+  justify-content: space-around;
+  background-color: green;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  color: yellow;
+}
+.tentando {
+  display: flex;
+  background-color: green;
+  justify-content: space-around;
+  font-size: 30px;
+  color: black;
+}
+
+.textoImagem {
+  color: #1e1e1e;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-around;
+}
+
+.textoObras {
+  justify-content: center;
+  padding: 20px;
+  font-size: 30px;
+  display: flex;
+}
+
+.obras {
+  width: 600px;
+  height: 400px;
+}
+.obras2 {
+  width: 400px;
+  height: 500px;
+}
+.quadros {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.conceito {
+  background-color: rgb(62, 196, 62);
+  padding: 30px;
+  margin-bottom: 22px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+img {
+  width: 198px;
+  height: 156px;
+}
+
+.artista {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: rgb(62, 196, 62);
+}
+
+.conteudo-text {
+  /* display: flex; */
+  justify-content: center;
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.centralizar {
+  display: flex;
+  justify-content: center;
+}
+.containerEsculturas1 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  columns: flex;
+  margin-top: 150px;
+  
+}
+.containerEsculturas2 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  columns: flex;
+  margin-top: 100px;
+  /* background-color: aqua; */
+}
+.containerEsculturas3 {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  columns: flex;
+  margin-top: 100px;
+
+}
+.nomesObras {
+  text-align: center;
+}
+.painel {
+  width: 400px;
+  height: 500px;
+}
+.painelgaia {
+  width: 400px;
+  height: 400px;
+}
+.painelindigena {
+  width: 366px;
+  height: 512px;
+}
