@@ -2,12 +2,20 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
+  color: #000;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 .header-text {
   background-color: grey;
   display: flex;
   justify-content: center;
+  padding: 30px;
+  
 }
 
 .sponsors > .title-page {
@@ -25,6 +33,22 @@
   justify-content: space-around;
   font-size: 30px;
   color: black;
+  padding: 30px;
+
+}
+
+.altera{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.tentando > a {
+  text-decoration: none;
+  font-size: 32px;
+  color: white;
+  background-color:grey ;""
+  border:35px;
 }
 
 .textoImagem {
@@ -58,11 +82,17 @@
   padding: 30px;
 }
 
+.title-materiais{
+  
+  
+
+}
 .conceito {
   background-color: rgb(62, 196, 62);
-  padding: 30px;
-  margin-bottom: 22px;
+ 
+  margin-bottom: 30px;
 
+  color: white;
   display: flex;
   flex-direction: column;
 
@@ -86,15 +116,30 @@ img {
   justify-content: center;
   color: #000;
   font-family: Inter;
-  font-size: 14px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
 .centralizar {
+  font-size: 50px;
   display: flex;
   justify-content: center;
+
+  
+}
+.espaco{
+  height: 200px;
+  
+  margin: 30px 0;
+ 
+  
+}
+
+ .name-artist{
+  font-family: 'Courier New';
+  font-size: 30px;
 }
 .containerEsculturas1 {
   width: 100%;
