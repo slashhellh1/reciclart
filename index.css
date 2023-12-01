@@ -140,15 +140,30 @@ img {
 }
 .roda{
   height: 20px;
-  background-color:yellow;
+  background-color: rgb(62, 196, 62);
   display: flex;
   justify-content:center;
   gap:100px;
+  
 }
 .fim{
+  background-color:  rgb(62, 196, 62);
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 50px;
+  padding: 20px;  
+}
+.site {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between
+
 }
 
+.Final{
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+}
