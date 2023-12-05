@@ -15,7 +15,7 @@ line-height: normal;
   display: flex;
   justify-content: center;
   padding: 30px;
-  
+ 
 }
 
 .sponsors > .title-page {
@@ -75,6 +75,7 @@ line-height: normal;
 .obras2 {
   width: 400px;
   height: 500px;
+  
 }
 .quadros {
   display: flex;
@@ -82,16 +83,13 @@ line-height: normal;
   padding: 30px;
 }
 
-.title-materiais{
-  
-  
 
-}
+.title-materiais{}
+
+
 .conceito {
   background-color: rgb(62, 196, 62);
- 
-  margin-bottom: 30px;
-
+  margin-bottom: 22px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -112,7 +110,7 @@ img {
 }
 
 .conteudo-text {
-  /* display: flex; */
+    /* display: flex; */
   justify-content: center;
   color: #000;
   font-family: Inter;
