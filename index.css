@@ -2,12 +2,20 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
+  color: #000;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
 }
 
 .header-text {
   background-color: grey;
   display: flex;
   justify-content: center;
+  padding: 30px;
+ 
 }
 
 .sponsors > .title-page {
@@ -25,6 +33,22 @@
   justify-content: space-around;
   font-size: 30px;
   color: black;
+  padding: 30px;
+
+}
+
+.altera{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.tentando > a {
+  text-decoration: none;
+  font-size: 32px;
+  color: white;
+  background-color:grey ;""
+  border:35px;
 }
 
 .textoImagem {
@@ -45,8 +69,13 @@
 }
 
 .obras {
-  width: 230px;
-  height: 228px;
+  width: 600px;
+  height: 400px;
+}
+.obras2 {
+  width: 400px;
+  height: 500px;
+  
 }
 .quadros {
   display: flex;
@@ -54,11 +83,14 @@
   padding: 30px;
 }
 
+
+.title-materiais{}
+
+
 .conceito {
   background-color: rgb(62, 196, 62);
-  padding: 30px;
   margin-bottom: 22px;
-
+  color: white;
   display: flex;
   flex-direction: column;
 
@@ -78,17 +110,103 @@ img {
 }
 
 .conteudo-text {
-  /* display: flex; */
+    /* display: flex; */
   justify-content: center;
   color: #000;
   font-family: Inter;
-  font-size: 14px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
 .centralizar {
+  font-size: 50px;
   display: flex;
   justify-content: center;
+
+  
+}
+.espaco{
+  height: 200px;
+  
+  margin: 30px 0;
+ 
+  
+}
+
+ .name-artist{
+  font-family: 'Courier New';
+  font-size: 30px;
+}
+.containerEsculturas1 {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-around;
+  columns: flex;
+  margin-top: 150px;
+  
+}
+.containerEsculturas2 {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-around;
+  columns: flex;
+  margin-top: 100px;
+  /* background-color: aqua; */
+}
+.containerEsculturas3 {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-around;
+  columns: flex;
+  margin-top: 100px;
+
+}
+.nomesObras {
+  text-align: center;
+}
+.painel {
+  width: 400px;
+  height: 500px;
+}
+.painelgaia {
+  width: 400px;
+  height: 400px;
+}
+.painelindigena {
+  width: 366px;
+  height: 512px;
+}
+.roda{
+  height: 20px;
+  background-color: rgb(62, 196, 62);
+  display: flex;
+  justify-content:center;
+  gap:100px;
+  
+}
+.fim{
+  background-color:  rgb(62, 196, 62);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 50px;
+  padding: 20px;  
+}
+.site {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between
+
+}
+
+.Final{
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
 }
