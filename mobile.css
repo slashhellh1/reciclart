@@ -1,6 +1,12 @@
 * {
-  padding: 0%;
-  margin: 0%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 @media (width > 370px) {
@@ -13,7 +19,7 @@
 
   header {
     width: 100%;
-    height: 80px;
+    height: auto;
     background-color: gray;
     padding: 15px;
   }
@@ -26,40 +32,44 @@
   
   nav h1 {
     width: 70%;
-    font-size: 18px;
+    font-size: 40px;
     text-align: center;
   }
   
   .tentando {
     width: 100%;
-    height: 20px;
+    height: auto;
     display: flex;
-    justify-content: space-around;
     background: green;
-    padding: 5px;
+    justify-self: center;
+    align-self: center;
+
   }
+
   .tentando > a {
     text-decoration: none;
+    font-size: 40px;
+    margin: 0 auto;
   }
-  
+
   .altera > iframe {
     width: 1500px;
     height: 650px;
     padding: 20px;
   }
+
   .img3 {
-    width: 100%;
-    height: 600px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    gap: 2rem;
 
   }
- 
+
   .obras2 {
-    width: 400px;
+    width: 500px;
     height: 500px;
     display: flex;
-    
     margin-top: 20px;
   }
   .textoObras {
@@ -68,19 +78,8 @@
     font-weight: bold;
     font-size: 35px;
   }
-  .centralizar {
-    width: 100%;
-    height: 30px;
-    font-weight: bold;
-    font-size: 35px;
-    background-color: grey;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    margin-top: 20px;
-    align-items: center;
-  }
-  
+
+
   .conceito {
     width: 100%;
     height: 350px;
@@ -90,20 +89,26 @@
   }
 
   .conceito1 {
-    width: 100%;
-    height: 150px;
-    background-color: green;
-    text-align: center;
+    margin-top: 2rem;
     display: flex;
-    align-items: center;
-    
+    flex-direction: column;
+    text-align: center;
   }
+
   .conteudo-text {
     font-size: 20px;
+    background-color: green;
+    padding: 20px;
   }
+
   .espaco {
-    padding: 15px;
+    margin: 20px auto;
+    height: 400px;
+    width: 400px;
+    align-self: center;
   }
+
+
   .imagem {
     width: 100%;
     height: 600px;
@@ -112,14 +117,19 @@
     gap: 100px;
     
   }
-  .conceito2 {
-    padding: 5px;
+
+  .paineis-sucata{
+    margin-top: 3rem;
+  }
+
+  .paineis-sucata > h2{
     text-align: center;
   }
-  .conceito3 {
-    padding: 5px;
+
+  .esculturas{
     text-align: center;
   }
+
   .rodaPe {
     width: 2000px;
     height: 70px;
@@ -153,26 +163,25 @@
   .roda {
     width: 40px;
   }
+
+  .conceito3{
+    text-align: center;
+  }
 }
 
 
 @media (max-width: 370px) {
-  body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
 
   header {
     width: 100%;
-    height: 80px;
+    height: 7.5rem;
     background-color: gray;
     padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
   }
 
   nav {
-    width: 100%;
     display: flex;
     justify-content: center;
   }
@@ -185,14 +194,21 @@
   
   .tentando {
     width: 100%;
-    height: 20px;
+    height: auto;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     background: green;
     padding: 5px;
+    align-items: center;
   }
   .tentando > a {
     text-decoration: none;
+  }
+  
+  .altera{
+    margin: 10% 10%;
+    align-self: center;
   }
   
   .altera > iframe {
@@ -200,52 +216,54 @@
     height: auto;
     padding: 5px;
   }
+
+  .img3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+  }
   
   .obras2 {
     display: flex;
-    
-    width: 200px;
+    width: 10rem;
     margin-top: 20px;
+    
   }
+
+  .conceito2{
+    text-align: center;
+  }
+
   .textoObras {
     display: flex;
     justify-content: center;
   }
-  .centralizar {
-    width: 100%;
-    height: 30px;
-    background-color: grey;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    margin-top: 20px;
-  }
+
   
-  .conceito {
-    background-color: green;
-    padding: 5px;
-    text-align: center;
-  }
+ 
   .conceito1 {
-    background-color: green;
-    padding: 5px;
-    text-align: center;
-  }
-  .conceito2{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-  }
-  .conceito3 {
-    font-size: small;
-    width: 100%;
-    height: 60px;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
-    
   }
+
+  .conteudo-text {
+    font-size: 20px;
+    background-color: green;
+    padding: 20px;
+  }
+
+  
+  .paineis-sucata{
+    margin-top: 3rem;
+  }
+
+  .paineis-sucata > h2{
+    text-align: center;
+  }
+
   .espaco {
     padding: 15px;
   }
@@ -273,4 +291,9 @@
   .roda {
     width: 40px;
   }
+
+  .conceito3{
+    text-align: center;
+  }
+
 }
