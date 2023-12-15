@@ -5,7 +5,7 @@ drástica de alimentção, com o nome Anjos do peso. utilizando tecnologias pra 
 
 ## tecnologia  
 
-* html
+* HTML
 * css
 * Javascript
 
